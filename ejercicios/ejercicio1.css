@@ -1,0 +1,16 @@
+nav a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: purple;
+}
+
+nav a:hover {
+    background-color: yellow;
+}
+
+nav a:active {
+    font-weight: bold;
+}

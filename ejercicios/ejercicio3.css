@@ -1,0 +1,18 @@
+input:required {
+    border-left: 5px solid red;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+input:required:valid {
+    border-left: 5px solid green;
+}
+
+input:invalid {
+    border-color: red;
+    background-color: pink;
+}

@@ -1,0 +1,16 @@
+table tr:first-child th {
+    background-color: brown;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: grey;
+}
+
+table tr:nth-child(odd) {
+    background-color: blueviolet;
+}
+
+table tr:not(:first-child):hover {
+    background-color: yellow;
+}

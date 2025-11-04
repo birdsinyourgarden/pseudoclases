@@ -1,0 +1,11 @@
+.galeria img:first-child {
+    border: 8px solid rgb(182, 167, 32)
+}
+
+.galeria img:last-child {
+    border: 8px solid gray
+}
+
+.galeria img:nth-child(3n) {
+    opacity: 0.6;
+}
