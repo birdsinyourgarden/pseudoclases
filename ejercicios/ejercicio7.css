@@ -1,0 +1,9 @@
+.tareas input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.tareas input[type="checkbox"]:not(:checked) + label {
+    text-decoration: none;
+    color: black;
+}

@@ -110,23 +110,6 @@ Estiliza una lista de tareas donde:
 </ul>
 ```
 
-## Ejercicio 8: Sistema de pestañas
-Crea un sistema donde:
-- La pestaña activa (usando :target) tenga fondo azul y texto blanco
-- Las otras pestañas tengan fondo gris y texto negro
-- Al pasar el ratón sobre las pestañas inactivas, cambien ligeramente de color
-
-```html
-<div class="pestanas">
-    <a href="#tab1">Pestaña 1</a>
-    <a href="#tab2">Pestaña 2</a>
-    <a href="#tab3">Pestaña 3</a>
-</div>
-<div id="tab1">Contenido 1</div>
-<div id="tab2">Contenido 2</div>
-<div id="tab3">Contenido 3</div>
-```
-
 ## Ejercicio 9: Selector avanzado
 Estiliza una lista donde:
 - Todos los elementos excepto el tercero tengan punto negro
